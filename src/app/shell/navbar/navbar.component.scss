@@ -31,4 +31,12 @@ nav {
     padding-left: 48px;
     justify-content: space-between;
   }
+
+  .actions {
+    text-align: right;
+    
+    .link {
+      margin-left: 24px;
+    }
+  }
 }
