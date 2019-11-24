@@ -1,0 +1,29 @@
+div{
+    color: white;
+    background: url(/assets/images/drevobackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-size: 100px;
+        letter-spacing: 10px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    button{
+            border-width: 2px;
+            border-color:white;
+            border-style: solid;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: transparent;
+            color: white;
+            margin-right: 200px;
+    }
+}
