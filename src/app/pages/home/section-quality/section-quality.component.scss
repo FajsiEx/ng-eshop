@@ -28,6 +28,19 @@
   .video {
     width: 100%;
     text-align: center;
+    .videobg {
+      position: relative;
+      .yellowCircle {
+        position: absolute;
+        top: 85px;
+        right: 218px;
+      }
+      .playButton {
+        position: relative;
+        bottom: 110px;
+        right: 120px;
+      }
+    }
   }
 
   .fancy-line {
