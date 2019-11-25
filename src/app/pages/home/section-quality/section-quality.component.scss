@@ -1,8 +1,21 @@
-.body{
-    background-color: white;
+.body {
+  background-color: white;
 }
 
-.title{
-    font-family: 'Alata', sans-serif;
-    text-align: center;
+.title {
+  font-family: "Alata", sans-serif;
+  text-align: center;
+}
+
+.fancy-line {
+  background: #bea67c;
+  height: 4px;
+  width: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  text-align: center;
+  word-wrap: break-word;
 }
