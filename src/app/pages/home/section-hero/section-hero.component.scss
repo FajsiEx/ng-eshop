@@ -1,0 +1,28 @@
+.hero{
+    background: url(/assets/images/drevobackground.png);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .heading{
+        h1{
+            color: white;
+            font-size: 100px;
+            letter-spacing: 10px;
+            font-weight: bold;
+            margin: 10px;
+        }
+    }
+    .button{
+        display: flex;
+        justify-content: left;
+        button{
+            border: 2px solid white;
+            padding: 20px 100px ;
+            background: transparent;
+            color: white;
+        }
+    }
+}
+
