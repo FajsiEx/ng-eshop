@@ -28,34 +28,20 @@
   .video {
     width: 100%;
     text-align: center;
-    .videobg-one {
-      background: url(/assets/images/videoOne.png);
+    .videobg {
+      &.one {
+        background: url(/assets/images/videoOne.png);
+      }
+      &.two{
+        background: url(/assets/images/videoTwo.png)
+      }
+      &.three{
+        background: url(/assets/images/videoThree.png)
+      }
       background-size: cover;
       background-repeat: no-repeat;
-      width: 256px;
-      height: 256px;
-      border-radius: 50%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 28px;
-    }
-    .videobg-two {
-      background: url(/assets/images/videoTwo.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 256px;
-      height: 256px;
-      border-radius: 50%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 28px;
-    }
-    .videobg-three {
-      background: url(/assets/images/videoThree.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 256px;
-      height: 256px;
+      width: 225px;
+      height: 225px;
       border-radius: 50%;
       margin-left: auto;
       margin-right: auto;
