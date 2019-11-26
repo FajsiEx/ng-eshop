@@ -28,18 +28,8 @@
   .video {
     width: 100%;
     text-align: center;
-    .videobg {
-      position: relative;
-      .yellow-circle {
-        position: absolute;
-        top: 85px;
-        right: 218px;
-      }
-      .play-button {
-        position: relative;
-        bottom: 110px;
-        right: 120px;
-      }
+    .videobg-one{
+      background: url(/assets/images/videoOne.png);
     }
   }
 
@@ -51,3 +41,4 @@
     margin-right: auto;
   }
 }
+
