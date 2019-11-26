@@ -28,6 +28,9 @@
   .video {
     width: 100%;
     text-align: center;
+    i {
+      color: white;
+    }
     .videobg {
       &.one {
         background: url(/assets/images/videoOne.png);
