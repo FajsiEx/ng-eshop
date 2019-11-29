@@ -3,14 +3,29 @@ nav {
   top: 0;
   left: 0;
 
-  width: 100%;
-  padding: 16px;
-  
+  width: calc(100% - var(--offset-4x) * 2);
+  padding: var(--offset-4x);
+
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: stretch;
   align-items: center;
+
+  font-family: "Varela Round", sans-serif;
+  
+  color: var(--color-text-white);
+  
+  a {
+    color: var(--color-text-white);
+    text-decoration: none;
+    cursor: pointer;
+    
+    &:hover {
+      filter: var(--filter-hover);
+      transition: var(--transition-filter-hover);
+    }
+  }
 
   div {
     width: 100%;
@@ -28,7 +43,9 @@ nav {
   .logo {
     text-align: right;
     padding-right: 48px;
-    .text {
+    
+    img {
+      height: 100%;
     }
   }
 
@@ -36,13 +53,30 @@ nav {
     display: flex;
     padding-left: 48px;
     justify-content: space-between;
+    width: 133%;
   }
 
   .actions {
     text-align: right;
     
+    i {
+      font-size: 18px;
+    }
+    
     .link {
       margin-left: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  nav {
+    .logo {
+      text-align: center;
+      padding-right: 0;
+    }
+    .links {
+      display: none;
     }
   }
 }
