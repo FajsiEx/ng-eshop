@@ -1,6 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Alata+Roboto&display=swap');
-  
+@import url('https://fonts.googleapis.com/css?family=Varela+Round|Alata|Roboto&display=swap');
+
+:root {
+  --color-accent: #BEA67C;
+  --color-bg: #000;
+
+  --color-text-white: #fff;
+
+  --filter-hover: brightness(0.8);
+
+  --transition-filter-hover: filter 0.35s ease;
+
+  --offset: 8px;
+  --offset-2x: 16px;
+  --offset-4x: 32px;
+}
+
+
 body {
   margin:0;
   padding:0;
