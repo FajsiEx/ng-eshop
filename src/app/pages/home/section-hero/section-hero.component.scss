@@ -26,12 +26,37 @@
         }
     }
 }
-.fancyciara {
-    background-color: var(--color-accent);
-    width: 4px;
-    height: 51px;
+.fancyleftside{
     position: absolute;
     top: 200px;
     left: 200px;
-  }
+    .fancyciara {
+        background-color: var(--color-accent);
+        width: 4px;
+        height: 51px;
+        position: absolute;
+        left: 7.2px;
+    }
+    .fancytext{
+        color: var(--color-accent);
+        transform: rotate(90deg);
+        font-size: 60px;
+        position: absolute;
+        top: 70px;
+        left: -25px;
+    }
+    .fancytextdots {
+        color: var(--color-accent);
+        transform: rotate(90deg);
+        font-size: 30px;
+        letter-spacing: 20px;
+        position: absolute;
+        top: 250px;
+        left: -60px;
+        .non-active{
+            opacity: 0.5;
+        }
+    }
+}
+
    
