@@ -10,6 +10,7 @@ import { SectionHeroComponent } from './pages/home/section-hero/section-hero.com
 import { SectionQualityComponent } from './pages/home/section-quality/section-quality.component';
 import { SectionCategoriesComponent } from './pages/home/section-categories/section-categories.component';
 import { SectionVideoComponent } from './pages/home/section-video/section-video.component';
+import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { SectionVideoComponent } from './pages/home/section-video/section-video.
     SectionHeroComponent,
     SectionQualityComponent,
     SectionCategoriesComponent,
-    SectionVideoComponent
+    SectionVideoComponent,
+    SectionAboutComponent
   ],
   imports: [
     BrowserModule,
