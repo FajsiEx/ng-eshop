@@ -54,6 +54,10 @@
         }
         
         .desc {
+            p {
+                line-height: var(--line-height-desc);
+            }
+            
             .before-line {
                 justify-content: start;
             }
