@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SectionHeroComponent } from './pages/home/section-hero/section-hero.component';
 import { SectionQualityComponent } from './pages/home/section-quality/section-quality.component';
 import { SectionCategoriesComponent } from './pages/home/section-categories/section-categories.component';
+import { SectionVideoComponent } from './pages/home/section-video/section-video.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { SectionCategoriesComponent } from './pages/home/section-categories/sect
     HomeComponent,
     SectionHeroComponent,
     SectionQualityComponent,
-    SectionCategoriesComponent
+    SectionCategoriesComponent,
+    SectionVideoComponent
   ],
   imports: [
     BrowserModule,
