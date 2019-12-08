@@ -1,30 +1,87 @@
-.hero {
-  background: url(/assets/images/drevobackground.png);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .heading {
-    h1 {
-      color: white;
-      font-size: 100px;
-      letter-spacing: 10px;
-      font-weight: bold;
-      margin: 10px;
-    }
-  }
-  .button {
+.hero{
+    background: url(/assets/images/drevobackground.png);
+    background-size: cover;
+    min-height: 100vh;
     display: flex;
-    justify-content: left;
-    button {
-      border: 2px solid white;
-      padding: 20px 100px;
-      background: transparent;
-      color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .heading{
+        
+        h1{
+            color: #bea67c;
+            font-size: 100px;
+            letter-spacing: 10px;
+            font-weight: bold;
+            margin: 10px;
+            margin-left: 0px;
+        }
     }
-  }
+
+    .button{
+        display: flex;
+        justify-content: left;
+        button{
+            border: 2px solid white;
+            padding: 20px 100px ;
+            background: transparent;
+            color: white;
+        }
+    }
+
+    .FancyMouseIcon{
+        margin-top: 10%;
+    }
+
+    .FancyArrow{
+        margin-top: 5%;
+        margin-left: 5px;
+    }
+
+    .FancyScrollText{
+        transform: rotate(90deg) translateX(30px) translateY(18px);
+        display: inline-block;
+        color: var(--color-accent);
+    }
 }
+
+.fancyleftside{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+    .fancyciara {
+        background-color: var(--color-accent);
+        width: 4px;
+        height: 51px;
+        position: absolute;
+        left: 7.2px;
+    }
+
+    .fancytext{
+        color: var(--color-accent);
+        transform: rotate(90deg);
+        font-size: 60px;
+        position: absolute;
+        top: 70px;
+        left: -25px;
+    }
+
+    .fancytextdots {
+        color: var(--color-accent);
+        transform: rotate(90deg);
+        font-size: 30px;
+        letter-spacing: 20px;
+        position: absolute;
+        top: 250px;
+        left: -60px;
+        .non-active{
+            opacity: 0.5;
+        }
+    }
+}
+
 .divider {
 	position: absolute;
 	transform: translateY(-32px);
