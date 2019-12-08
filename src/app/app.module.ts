@@ -8,6 +8,9 @@ import { FooterComponent } from './shell/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SectionHeroComponent } from './pages/home/section-hero/section-hero.component';
 import { SectionQualityComponent } from './pages/home/section-quality/section-quality.component';
+import { SectionCategoriesComponent } from './pages/home/section-categories/section-categories.component';
+import { SectionVideoComponent } from './pages/home/section-video/section-video.component';
+import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +18,10 @@ import { SectionQualityComponent } from './pages/home/section-quality/section-qu
     FooterComponent,
     HomeComponent,
     SectionHeroComponent,
-    SectionQualityComponent
+    SectionQualityComponent,
+    SectionCategoriesComponent,
+    SectionVideoComponent,
+    SectionAboutComponent
   ],
   imports: [
     BrowserModule,

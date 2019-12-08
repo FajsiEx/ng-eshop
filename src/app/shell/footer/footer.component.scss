@@ -1,0 +1,33 @@
+footer {
+    background: url(/assets/images/footer/bg.png);
+
+    .inner {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        color: var(--color-text-inverted);
+
+        div {
+            opacity: .5;
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .logo {
+            opacity: 1;
+        }
+
+        .copy, .credit {
+            margin-top: 4px;
+        }
+
+        a {
+            color: var(--color-text-inverted);
+            text-decoration: none;
+            opacity: 1
+        }
+    }
+}

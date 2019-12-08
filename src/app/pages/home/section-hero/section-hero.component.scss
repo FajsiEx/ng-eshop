@@ -82,4 +82,11 @@
     }
 }
 
-   
+.divider {
+	position: absolute;
+	transform: translateY(-32px);
+  height: 32px;
+  width: 100%;
+  background: #fff;
+  clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 100% 100%, 0% 100%);
+}
