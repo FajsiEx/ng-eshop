@@ -1,90 +1,102 @@
-.hero{
-    background: url(/assets/images/drevobackground.png);
-    background-size: cover;
-    min-height: 100vh;
+.hero {
+  background: url(/assets/images/drevobackground.png);
+  background-size: cover;
+  min-height: 100vh;
+  .center-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-
-    .heading{
-        
-        h1{
-            color: #bea67c;
-            font-size: 100px;
-            letter-spacing: 10px;
-            font-weight: bold;
-            margin: 10px;
-            margin-left: 0px;
-        }
+    .heading {
+      h1 {
+        color: #bea67c;
+        font-size: 100px;
+        letter-spacing: 10px;
+        font-weight: bold;
+        margin: 40% 0px 10px 0px;
+      }
     }
 
-    .button{
-        display: flex;
-        justify-content: left;
-        button{
-            border: 2px solid white;
-            padding: 20px 100px ;
-            background: transparent;
-            color: white;
-        }
+    .button {
+      display: flex;
+      justify-content: left;
+      button {
+        border: 2px solid white;
+        padding: 20px 100px;
+        background: transparent;
+        color: white;
+      }
     }
 
-    .FancyMouseIcon{
-        margin-top: 10%;
+    .FancyMouseIcon {
+      margin-top: 10%;
     }
 
-    .FancyArrow{
-        margin-top: 5%;
-        margin-left: 5px;
+    .FancyArrow {
+      margin-top: 5%;
+      margin-left: 5px;
     }
 
-    .FancyScrollText{
-        transform: rotate(90deg) translateX(30px) translateY(18px);
-        display: inline-block;
-        color: var(--color-accent);
+    .FancyScrollText {
+      transform: rotate(90deg) translateX(20px) translateY(8px);
+      display: inline-block;
+      font-size: 10px;
+      opacity: 0.5;
+      color: var(--color-accent);
     }
-}
+  }
 
-.fancyleftside{
+  .fancyleftside {
     position: absolute;
     top: 200px;
     left: 200px;
 
     .fancyciara {
-        background-color: var(--color-accent);
-        width: 4px;
-        height: 51px;
-        position: absolute;
-        left: 7.2px;
+      background-color: var(--color-accent);
+      width: 4px;
+      height: 51px;
+      position: absolute;
+      left: 7.2px;
     }
 
-    .fancytext{
-        color: var(--color-accent);
-        transform: rotate(90deg);
-        font-size: 60px;
-        position: absolute;
-        top: 70px;
-        left: -25px;
+    .fancytext {
+      color: var(--color-accent);
+      transform: rotate(90deg);
+      font-size: 60px;
+      position: absolute;
+      top: 70px;
+      left: -25px;
     }
 
     .fancytextdots {
-        color: var(--color-accent);
-        transform: rotate(90deg);
-        font-size: 30px;
-        letter-spacing: 20px;
-        position: absolute;
-        top: 250px;
-        left: -60px;
-        .non-active{
-            opacity: 0.5;
-        }
+      color: var(--color-accent);
+      transform: rotate(90deg);
+      font-size: 30px;
+      letter-spacing: 20px;
+      position: absolute;
+      top: 250px;
+      left: -60px;
+      .non-active {
+        opacity: 0.5;
+      }
     }
+  }
+  .fancyrightside {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    i {
+      color: var(--color-accent);
+      font-size: 20px;
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+    }
+  }
 }
-
 .divider {
-	position: absolute;
-	transform: translateY(-32px);
+  position: absolute;
+  transform: translateY(-32px);
   height: 32px;
   width: 100%;
   background: #fff;
