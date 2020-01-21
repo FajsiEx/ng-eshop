@@ -11,6 +11,8 @@ import { SectionQualityComponent } from './pages/home/section-quality/section-qu
 import { SectionCategoriesComponent } from './pages/home/section-categories/section-categories.component';
 import { SectionVideoComponent } from './pages/home/section-video/section-video.component';
 import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
+import { ProductComponent } from './pages/product/product.component';
+import { ProductListComponent } from './pages/product-list/product-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { SectionAboutComponent } from './pages/home/section-about/section-about.
     SectionQualityComponent,
     SectionCategoriesComponent,
     SectionVideoComponent,
-    SectionAboutComponent
+    SectionAboutComponent,
+    ProductComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
