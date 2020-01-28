@@ -13,6 +13,7 @@ import { SectionVideoComponent } from './pages/home/section-video/section-video.
 import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
 import { ProductComponent } from './pages/product/product.component';
 import { ProductListComponent } from './pages/product-list/product-list.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { ProductListComponent } from './pages/product-list/product-list.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
