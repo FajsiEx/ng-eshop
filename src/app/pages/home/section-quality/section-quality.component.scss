@@ -28,7 +28,26 @@
   .video {
     width: 100%;
     text-align: center;
+    i {
+      color: white;
+    }
+    .play-button{
+      display: flex;
+      align-items: center;
+    }
+    .circle{
+      height: 50px;
+      width: 50px;
+      background-color: #b4a07f;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .videobg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       &.one {
         background: url(/assets/images/videoOne.png);
       }
