@@ -1,6 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
-  
+@import url('https://fonts.googleapis.com/css?family=Varela+Round|Alata|Roboto&display=swap');
+
+:root {
+  --color-accent: #BEA67C;
+  --color-bg: #fff;
+
+  --color-text: #000;
+  --color-text-d1: #222;
+  --color-text-d2: #383838;
+  --color-text-d3: #555;
+
+  --color-text-inverted: #fff;
+  --color-text-inverted-d1: #fff;
+  --color-text-inverted-d2: #fff;
+  --color-text-inverted-d3: #fff;
+
+  --filter-hover: brightness(0.8);
+
+  --transition-filter-hover: filter 0.35s ease;
+
+  --offset: 8px;
+  --offset-2x: 16px;
+  --offset-4x: 32px;
+
+  --line-height-desc: 1.5rem;
+}
+
 body {
-    margin:0; padding:0
+  margin:0;
+  padding:0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
