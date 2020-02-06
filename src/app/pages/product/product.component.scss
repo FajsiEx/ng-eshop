@@ -38,16 +38,37 @@
         font-size: 60px;
     }
 
-    .fa-undo{
-        font-size: 60px;
-    }
+    .info{
 
-    .fa-circle{
-        font-size: 60px;
-    }
+        display: flex;
+        align-items: center;
 
-    .fa-truck{
-        font-size: 60px;
+        .undo{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fa-undo{
+            font-size: 60px;
+        }
+        
+        .circle{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fa-circle{
+            font-size: 60px;
+        }
+        
+        .truck{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fa-truck{
+            font-size: 60px;
+        }
     }
 }
 
