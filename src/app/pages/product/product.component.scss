@@ -7,6 +7,15 @@
         display: flex;
         align-items: center;
 
+        .stars{
+            margin-left: auto;
+            padding: 10px;
+        }
+
+        .reviews{
+            padding: 10px;
+        }
+
         .fa-star{
             color: gold;
         }
