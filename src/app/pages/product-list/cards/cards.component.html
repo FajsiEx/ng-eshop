@@ -1,6 +1,9 @@
-{{cards[0] | json}}
-
-<div class="card" *ngFor="let card of cards">
-    Card title: {{card.title}}
-    <img [src]="card.thumbnailUrl">
+{{cards[0] | json}
+}
+<div class="card-list">
+    <div class="card" *ngFor="let card of cards">
+        <img [src]="card.thumbnailUrl">
+        <h3>{{card.title}}</h3>
+        <button>PRODUCT DETAILS</button>
+    </div>
 </div>

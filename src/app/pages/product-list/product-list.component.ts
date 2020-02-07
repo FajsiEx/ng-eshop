@@ -18,7 +18,7 @@ export class ProductListComponent implements OnInit {
 
   fetchData() {
     this.api.getProducts().subscribe(data => {
-      this.data = data;
+      this.data = data["slice"](0, 10);
     })
   }
 
