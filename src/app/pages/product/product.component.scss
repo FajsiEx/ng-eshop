@@ -3,6 +3,8 @@
 .main {
     display: flex;
 
+    margin-top: 128px;
+
     & > div {
         width: 100%;
     }
@@ -36,5 +38,10 @@
     .price {
         margin-top: 8px;
         font-size: 48px;
+    }
+
+    .cart-row {
+        display: flex;
+        justify-content: space-between;
     }
 }
