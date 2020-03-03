@@ -5,52 +5,28 @@
 <!-- http://localhost:4200/item/1 -->
 
 <div class="main">
-  <div class="image">
-      <img src="/assets/images/product/Wood Template.jpeg">
+  <div class="image-wrapper">
+    <img class="product-image" [src]="photo.url">
   </div>
 
-  <div class="text">
-    <div class="nameStars">
-      <h1>Not Sophia</h1>
-      <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>      
-        <i class="fas fa-star"></i>
-      </div>
-      <div class="reviews">
-        <p>29 reviews</p>
+  <div class="details">
+    <div class="header">
+      <h1 class="title">{{photo.title}}</h1>
+      <div class="rating">
+        <i *ngFor="let starValue of starValues" class="fa-star" [ngClass]="{
+          'fas': starValue === 1,
+          'far': starValue === 0
+        }"></i>
+        <span class="rating-text">29 reviews</span>
       </div>
     </div>
-    <p>Nebulizer</p>
-    <p>Handmade ceramic and oak wood</p>
-    <p>-</p>
-    <p>Loved for its waterless operation and potent aroma, NOT SOPHIA enhances your home without you even noticing it.</p>
-    <h2>$99.97</h2>
-    <div class="buy">
-      <i class="far fa-minus-square"></i>
-      <i class="far fa-square"></i>
-      <i class="far fa-plus-square"></i>
-      <div class="cart">
-        <i class="fas fa-cart-plus"></i>
-        <p class="cartText">Add to Cart</p>
-      </div>
+
+    <div class="desc">
+      Something Something Something Something
     </div>
-    <br>
-    <div class="info">
-      <div class="undo">
-        <i class="fas fa-undo"></i>
-        <p class="infoText">30 Day Return</p>
-      </div>
-      <div class="circle">
-        <i class="far fa-circle"></i>
-        <p class="infoText">1 Year Warranty</p>
-      </div>
-      <div class="truck">
-        <i class="fas fa-truck"></i>
-        <p class="infoText">Free 4 Day Shipping</p>
-      </div>
+
+    <div class="price">
+      $100.00
     </div>
   </div>
 </div>

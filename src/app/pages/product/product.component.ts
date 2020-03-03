@@ -12,6 +12,8 @@ export class ProductComponent implements OnInit {
   id: number;
   photo: any;
 
+  starValues = [1,1,1,1,0];
+
   constructor(private route: ActivatedRoute, private api: ApiService) { }
 
   ngOnInit() {

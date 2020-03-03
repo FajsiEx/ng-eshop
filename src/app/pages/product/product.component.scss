@@ -1,102 +1,40 @@
-.main{
+
+
+.main {
     display: flex;
-    justify-content: center;
-    align-items: center;
 
-    .nameStars{
-        display: flex;
-        align-items: center;
-
-        .stars{
-            margin-left: auto;
-            padding: 10px;
-        }
-
-        .reviews{
-            padding: 10px;
-        }
-
-        .fa-star{
-            color: gold;
-        }
-    }
-
-    p{
-        font-size: 20px;
-        word-wrap: break-word;
-    }
-
-    .fa-minus-square{
-        font-size: 60px;
-    }
-
-    .fa-square{
-        font-size: 60px;
-    }
-
-    .fa-plus-square{
-        font-size: 60px;
-    }
-
-    .buy{
-        display: flex;
-        align-items: center;
-
-        .cart{
-            display: flex;
-            align-items: center;
-            color: white;
-            background: black;
-            width: 300px;
-            height: 80px;
-            margin-right: auto;
-            margin-left: auto;
-
-            .fa-cart-plus{
-                font-size: 60px;
-                color: white;
-                padding-top: 5px;
-                padding-left: 5px;
-            }
-
-            .cartText{
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-    }
-
-    .info{
-
-        display: flex;
-        align-items: center;
-
-        .undo{
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .fa-undo{
-            font-size: 60px;
-        }
-        
-        .circle{
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .fa-circle{
-            font-size: 60px;
-        }
-        
-        .truck{
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .fa-truck{
-            font-size: 60px;
-        }
+    & > div {
+        width: 100%;
     }
 }
 
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .title {
+            width: 100%;
+        }
+        .rating {
+            flex-shrink: 0;
+            text-align: right;
+            margin: 0 8px;
+            .rating-text {
+                margin-left: 8px;
+            }
+        }
+    }
+
+    .price {
+        margin-top: 8px;
+        font-size: 48px;
+    }
+}
