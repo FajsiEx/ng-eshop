@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,9 @@ import { SectionVideoComponent } from './pages/home/section-video/section-video.
 import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
 import { ProductComponent } from './pages/product/product.component';
 import { ProductListComponent } from './pages/product-list/product-list.component';
+import { CardsComponent } from './pages/product-list/cards/cards.component';
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,11 +29,13 @@ import { ProductListComponent } from './pages/product-list/product-list.componen
     SectionVideoComponent,
     SectionAboutComponent,
     ProductComponent,
-    ProductListComponent
+    ProductListComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

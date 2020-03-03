@@ -1,0 +1,21 @@
+.card-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px 0px 0px 10px; //top right bottom left
+    width: calc(25% - 10px);
+    button{
+        width: 100%;
+    }
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
